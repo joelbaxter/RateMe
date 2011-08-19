@@ -1,0 +1,23 @@
+<h1>Ticket Ratings</h1>
+
+<table>
+  <tr>
+    <th style="padding-right:40px;">Ticket Number</th>
+	<th>Rating Value</th>
+  </tr>
+
+<% @create_ratings.each do |create_rating| %>
+  <tr>
+    <td><a href="<%= create_rating.ticketNumber %>"><%= create_rating.titleVal %></td>
+    <td><%= create_rating.ratingVal %></td>
+<td></td><td></td><td></td><td></td><td></td>
+    <td><%= link_to 'Show', create_rating %> |</td>
+    <td><%= link_to 'Edit', edit_create_rating_path(create_rating) %> | </td>
+    <td><%= link_to 'Destroy', create_rating, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Create a new rating', new_create_rating_path %>

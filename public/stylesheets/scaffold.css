@@ -1,0 +1,99 @@
+body { background-color: #fff; color: #333; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #000; }
+a:visited { color: #666; }
+a:hover { color: #fff; background-color:#000; }
+
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+.simple-button{
+	-moz-border-radius:6px; -o-border-radius:6px; -webkit-border-radius:6px;
+	-moz-box-shadow:0 2px 5px rgba(0, 0, 0, 0.42); -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.42);
+	background:url("../images/rate_body.jpg") 0 0 no-repeat;
+	width:340px;
+	height:105px;
+	margin:0 auto 25px;
+	display:block;
+	position:relative;
+	text-decoration:none;
+}
+
+.simple-button span.bigone{
+	color:#818181;
+	display:block;
+	position:absolute;
+	top:25px;
+	font-size:26px;
+	text-decoration:none;
+	left:115px;
+}
+
+.simple-button span.data{
+	color:#818181;
+	display:block;
+	position:absolute;
+	top:60px;
+	font-size:14px;
+	text-decoration:none;
+	left:115px;
+	text-decoration:none;
+}
+
+.face { display:block; position:absolute; top:16px; left:20px; height:74px; width:74px; }
+.face.great, .center-face.g { background:url("../images/reply-nice.png") 0 0 no-repeat; }
+.face.normal, .center-face.o { background:url("../images/reply-normal.png") 0 0 no-repeat; }
+.face.poor, .center-face.p { background:url("../images/reply-poor.png") 0 0 no-repeat; }
+
+.center-face{ display:block; height:74px; width:74px; margin:30px auto 20px; }
+
+h1.simple{ padding-top:0px; }
+textarea.simple { width:398px; }
+

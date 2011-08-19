@@ -1,0 +1,23 @@
+<center><h1>How nice was my reply?</h1></center>
+<br/>
+<br/>
+
+<a class="simple-button great" href="<%= create_ratings_path(:create_rating => {:ticketNumber => params[:u], :ratingVal => 3, :titleVal => params[:t]}) %>" data-method="post" follow="false">
+	<span class="face great"></span>
+	<span class="bigone">Very nice</span>
+	<span class="data">Great and helpful, nice job!</span>
+</a>
+<br/>
+<br/>
+<a class="simple-button normal" href="<%= create_ratings_path(:create_rating => {:ticketNumber => params[:u], :ratingVal => 2, :titleVal => params[:t]}) %>" data-method="post" follow="false">
+	<span class="face normal"></span>
+	<span class="bigone">Normal</span>
+	<span class="data">Average, could have been better.</span>
+</a>
+<br/>
+<br/>
+<a class="simple-button poor" href="<%= create_ratings_path(:create_rating => {:ticketNumber => params[:u], :ratingVal => 1, :titleVal => params[:t]}) %>" data-method="post" follow="false">
+	<span class="face poor"></span>
+	<span class="bigone">Poor</span>
+	<span class="data">I am not pleased.</span>
+</a>
